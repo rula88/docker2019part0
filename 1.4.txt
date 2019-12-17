@@ -1,0 +1,22 @@
+PS C:\Windows\system32> docker logs -f devopsdockeruh/exec_bash_exercise
+Error: No such container: devopsdockeruh/exec_bash_exercise
+PS C:\Windows\system32> docker logs -f devopsdockeruh/exec_bash_exercise
+Error: No such container: devopsdockeruh/exec_bash_exercise
+PS C:\Windows\system32> docker exec -it devops bash
+root@cc40fdb6e9e8:/usr/app# tail -f ./logs.txt
+Fri, 13 Dec 2019 14:12:18 GMT
+Fri, 13 Dec 2019 14:12:21 GMT
+Secret message is:
+"Docker is easy"
+Fri, 13 Dec 2019 14:12:27 GMT
+Fri, 13 Dec 2019 14:12:30 GMT
+Fri, 13 Dec 2019 14:12:33 GMT
+Fri, 13 Dec 2019 14:12:36 GMT
+Secret message is:
+"Docker is easy"
+Fri, 13 Dec 2019 14:12:42 GMT
+Fri, 13 Dec 2019 14:12:45 GMT
+Fri, 13 Dec 2019 14:12:48 GMT
+Fri, 13 Dec 2019 14:12:51 GMT
+Secret message is:
+"Docker is easy"
